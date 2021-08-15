@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: haozuke-rocketmq
+#  rocketmq:
+#    nameServer: vagrant:9876
+#    producer:
+#      group: my-group
+server:
+  port: 98791
+rocketmq:
+  nameServer: vagrant:9877;vagrant:9876
+  producer:
+    group: my-group

@@ -13,7 +13,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class TransactionListenerImpl implements TransactionListener {
-    private static Map<String, LocalTransactionState> STATE_MAP = new HashMap<>();
+    private static final Map<String, LocalTransactionState> STATE_MAP = new HashMap<>();
 
     private static final ObjectMapper objectMapper = new ObjectMapper();
 
